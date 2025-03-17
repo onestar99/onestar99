@@ -4,14 +4,29 @@
 
 <table>
   <tr>
-    <td align="center"><strong>백준 등급</strong></td>
-    <td align="center"><strong>깃허브 통계</strong></td>
+    <th>백준 등급</th>
+    <th>깃허브 통계</th>
   </tr>
   <tr>
-    <td align="center">![Solved.ac Profile](https://mazassumnida.wtf/api/v2/generate_badge?boj=jhb9904)</td>
-    <td align="center"><a href="https://github.com/anuraghazra/github-readme-stats">![GitHub stats](https://github-readme-stats.vercel.app/api?username=onestar99&show_icons=true)</a></td>
+    <td align="center">
+      <!-- 백준 등급 이미지 -->
+      <img 
+        src="https://mazassumnida.wtf/api/v2/generate_badge?boj=jhb9904" 
+        alt="Solved.ac Profile"
+      />
+    </td>
+    <td align="center">
+      <!-- 깃허브 통계 이미지 -->
+      <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img 
+          src="https://github-readme-stats.vercel.app/api?username=onestar99&show_icons=true" 
+          alt="GitHub stats" 
+        />
+      </a>
+    </td>
   </tr>
 </table>
+
 
 
 ![Image](https://github.com/user-attachments/assets/3df7ad94-92e5-410e-959e-1b134754a268)
