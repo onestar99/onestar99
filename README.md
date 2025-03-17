@@ -5,8 +5,8 @@
 
 <table>
   <tr>
-    <th>백준 등급</th>
-    <th>깃허브 통계</th>
+    <th>Baekjoon</th>
+    <th>Github</th>
   </tr>
   <tr>
     <td align="center">
@@ -33,7 +33,7 @@
 ![Image](https://github.com/user-attachments/assets/3df7ad94-92e5-410e-959e-1b134754a268)
 </div>
 
-### 기술 스택 (YAML 형식)
+### Tech stack
 ```yaml
 tech_stack:
   - language: "Python"
