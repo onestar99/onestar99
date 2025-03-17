@@ -37,15 +37,18 @@
 ```yaml
 tech_stack:
   - language: "Python"
-    proficiency: "매일 디버깅하며 기적을 만드는 중"
+    proficiency: "어디서 배운적은 없는데 오픈소스 보던게 대부분 파이썬이라 눈에 익어버리고 어떤게 좋은 코드인지 구분이 가기 시작"
+    level: 4
   - language: "JavaScript"
-    proficiency: "함수 호출마다 웃음과 눈물, 버그와의 전쟁 중"
+    proficiency: "읽기만 가능하고 작성해 본 적 거의 없음"
+    level: 1
   - language: "Java"
-    proficiency: "클래스와 인터페이스 사이를 누비며 에러와 춤추는 중"
+    proficiency: "아주 열심히 공부한 정직한 친구, JVM 쪽으로도 관심이 생겨서 책 읽으며 공부 중"
+    level: 7
   - framework: "Spring Boot"
-    proficiency: "코드의 온도 조절장치, 가끔은 너무 뜨겁게"
+    proficiency: "트랜잭션과 싸우면서 정이 들어버렸다"
+    level: 7
   - tool: "Git"
-    proficiency: "커밋 메시지에 시와 소망을 담는 예술가"
-confidence_level: "10/10 (혹은 버그를 만난 날엔 11/10)"
-humor: "코딩은 웃음으로 풀리고, 에러는 커피로 해결!"
+    proficiency: "혹시 모를 롤백을 위해 사용"
+    level: 5
 ```
