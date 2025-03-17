@@ -1,7 +1,6 @@
 <!-- 피스피스~! -->
-
 <div align="center">
-
+![Image](https://github.com/user-attachments/assets/d83fdcd1-e598-4815-9bfb-1d0e66045518)
 <table>
   <tr>
     <th>백준 등급</th>
@@ -30,8 +29,7 @@
 
 
 ![Image](https://github.com/user-attachments/assets/3df7ad94-92e5-410e-959e-1b134754a268)
-![Image](https://github.com/user-attachments/assets/d83fdcd1-e598-4815-9bfb-1d0e66045518)
-
+</div>
 
 ### 기술 스택 (YAML 형식)
 ```yaml
@@ -49,4 +47,3 @@ tech_stack:
 confidence_level: "10/10 (혹은 버그를 만난 날엔 11/10)"
 humor: "코딩은 웃음으로 풀리고, 에러는 커피로 해결!"
 ```
-</div>
