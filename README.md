@@ -14,3 +14,21 @@
 ![Image](https://github.com/user-attachments/assets/d83fdcd1-e598-4815-9bfb-1d0e66045518)
 
 </div>
+
+
+### 기술 스택 (YAML 형식)
+```yaml
+tech_stack:
+  - language: "Python"
+    proficiency: "매일 디버깅하며 기적을 만드는 중"
+  - language: "JavaScript"
+    proficiency: "함수 호출마다 웃음과 눈물, 버그와의 전쟁 중"
+  - language: "Java"
+    proficiency: "클래스와 인터페이스 사이를 누비며 에러와 춤추는 중"
+  - framework: "Spring Boot"
+    proficiency: "코드의 온도 조절장치, 가끔은 너무 뜨겁게"
+  - tool: "Git"
+    proficiency: "커밋 메시지에 시와 소망을 담는 예술가"
+confidence_level: "10/10 (혹은 버그를 만난 날엔 11/10)"
+humor: "코딩은 웃음으로 풀리고, 에러는 커피로 해결!"
+```
