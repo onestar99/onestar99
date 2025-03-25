@@ -1,7 +1,6 @@
 <!-- 피스피스~! -->
 <div align="center">
   
-![Image](https://github.com/user-attachments/assets/d83fdcd1-e598-4815-9bfb-1d0e66045518)
 
 <table>
   <tr>
@@ -30,7 +29,6 @@
 
 
 
-![Image](https://github.com/user-attachments/assets/3df7ad94-92e5-410e-959e-1b134754a268)
 </div>
 
 ### Tech stack
