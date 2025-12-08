@@ -10,11 +10,12 @@
 
 ## 2. README.md 리팩토링 (Refactoring)
 - [x] **Hero Section (상단)**: "Backend Engineer"로 정체성 확립
-- [ ] **Tech Stack Section**: 
+- [x] **Tech Stack Section**: 
     - Java/Spring Boot 최상단 배치 및 강조
     - JavaScript 제거
     - Python 보조 역할로 조정
     - Database (MySQL, PostgreSQL, MongoDB) 추가
+    - **New**: Infrastructure (Ubuntu, Nginx, Docker, K8s) 및 Monitoring (Prometheus, Grafana, Loki) 추가
 - [x] **Project Section**: 인프라 자동화 및 백엔드 엔지니어링 역량 강조
 - [ ] **Interests & Goals**: Robotics/IoT 제거, 대용량 처리/아키텍처 등 백엔드 관련 관심사로 변경
 - [x] **Footer**: 통계 정보 배치

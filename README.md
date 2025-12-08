@@ -15,6 +15,11 @@
 | | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) | **Intermediate**<br>복잡한 관계형 데이터 모델링 및 트랜잭션 처리에 활용합니다. |
 | | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) | **Basic**<br>NoSQL의 특성을 이해하고 비정형 데이터 처리에 활용합니다. |
 | **Sub Language** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | **Intermediate**<br>데이터 분석, 자동화 스크립트 작성 및 오픈소스 분석 보조 도구로 활용합니다. |
+| **Infrastructure** | ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) | **Intermediate**<br>리눅스 환경에서의 개발 및 시스템 운영, 쉘 스크립팅에 익숙합니다. |
+| | ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) | **Intermediate**<br>리버스 프록시, 로드 밸런싱 구성 및 SSL 인증서 적용이 가능합니다. |
+| | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | **Basic**<br>컨테이너 생태계를 이해하고 Dockerfile을 작성하여 환경을 구성할 수 있습니다. |
+| | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) | **Basic**<br>Pod, Service, Deployment 등 기본 오브젝트의 개념을 이해하고 있습니다. |
+| **Monitoring** | ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) | **Basic**<br>서버 메트릭 수집 및 시각화 대시보드(Loki 포함)를 구성해 본 경험이 있습니다. |
 | **DevOps** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) | **Intermediate**<br>Git Flow 등 브랜치 전략을 준수하며 협업합니다. |
 | | ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) | CI/CD 파이프라인 구축 및 배포 자동화 경험이 있습니다. |
 
