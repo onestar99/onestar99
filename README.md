@@ -1,99 +1,58 @@
-<!-- 피스피스~! -->
+# Hanbyeol
+
+> **Backend Engineer (Java & Spring Boot)**  
+> "견고한 아키텍처와 효율적인 데이터 처리를 통해 안정적인 백엔드 시스템을 구축합니다."
+
+<br>
+
+## 🛠 Tech Stack
+
+| Category | Stack | Proficiency |
+| :--- | :--- | :--- |
+| **Core Language** | ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white) | **Advanced**<br>JVM 아키텍처, 메모리 모델, GC 튜닝 등 언어의 깊이 있는 이해를 바탕으로 개발합니다. |
+| **Framework** | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) | **Advanced**<br>대규모 트래픽 처리를 고려한 설계, 트랜잭션 관리, Spring Security 적용 등에 능숙합니다. |
+| **Database** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) | **Intermediate**<br>쿼리 최적화 및 인덱싱 전략 수립 경험이 있습니다. |
+| | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) | **Intermediate**<br>복잡한 관계형 데이터 모델링 및 트랜잭션 처리에 활용합니다. |
+| | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) | **Basic**<br>NoSQL의 특성을 이해하고 비정형 데이터 처리에 활용합니다. |
+| **Sub Language** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | **Intermediate**<br>데이터 분석, 자동화 스크립트 작성 및 오픈소스 분석 보조 도구로 활용합니다. |
+| **DevOps** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) | **Intermediate**<br>Git Flow 등 브랜치 전략을 준수하며 협업합니다. |
+| | ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) | CI/CD 파이프라인 구축 및 배포 자동화 경험이 있습니다. |
+
+<br>
+
+## 🚀 Research & Projects
+
+### **Autonomous Multi-Cloud CI/CD with LLM**
+> **"자연어 기반 인프라 구성 자동화 및 지능형 배포 시스템"**
+
+**Background & Challenge**
+- **리소스 최적화**: 비용 효율성을 위해 다중 클라우드 환경(Multi-Cloud)을 구축하였으나, 이기종 환경 관리의 복잡성이 증대됨.
+- **네트워크 보안**: VPC가 부재한 독립 환경 간의 보안 통신을 위해 정교한 IP 화이트리스팅 및 Config 동기화가 필수적임.
+
+**Solution Architecture**
+- **Centralized Monitoring**: Prometheus와 Grafana를 활용하여 분산된 클라우드 리소스의 메트릭을 중앙 집중형으로 모니터링.
+- **Automated Configuration**: Jenkins 파이프라인을 구축하여, Config Server 변경 시 각 독립 서버의 방화벽 및 설정이 유기적으로 동기화되도록 구현.
+- **LLM Integration**: 
+  - 자연어 명령을 통해 인프라 설정 코드를 생성 및 적용.
+  - **Code Verification**: LLM 생성 코드의 신뢰성 확보를 위해 Cross-Check(모델 간 검증) 및 GAN(적대적 생성) 방식의 검증 프로세스 연구.
+  - **MCP (Model Context Protocol)**: 클라이언트-서버 구조의 유연한 확장을 위해 MCP 프로토콜 도입 및 적용 중.
+
+<br>
+
+## 🌱 Fields of Interest
+
+- **Backend Architecture**: 대용량 트래픽 처리를 위한 분산 시스템 설계 및 MSA(Microservices Architecture).
+- **Performance Tuning**: JVM 튜닝, 쿼리 최적화 등을 통한 시스템 성능 개선.
+- **Cloud Native**: Kubernetes 등 클라우드 네이티브 환경에서의 안정적인 서비스 운영.
+
+<br>
+
+## 📊 Activity
+
 <div align="center">
-  
 
-<table>
-  <tr>
-    <th>Baekjoon</th>
-    <th>Github</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <!-- 백준 등급 이미지 -->
-      <img 
-        src="https://mazassumnida.wtf/api/v2/generate_badge?boj=jhb9904" 
-        alt="Solved.ac Profile"
-      />
-    </td>
-    <td align="center">
-      <!-- 깃허브 통계 이미지 -->
-      <a href="https://github.com/anuraghazra/github-readme-stats">
-        <img 
-          src="https://github-readme-stats.vercel.app/api?username=onestar99&show_icons=true" 
-          alt="GitHub stats" 
-        />
-      </a>
-    </td>
-  </tr>
-</table>
-
-
+| Solved.ac | GitHub Stats |
+| :---: | :---: |
+| <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=jhb9904" height="150" alt="Solved.ac Profile"/> | <a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=onestar99&show_icons=true" height="150" alt="GitHub stats"/></a> |
 
 </div>
-
-### Tech stack
-```yaml
-tech_stack:
-  - language: "Python"
-    proficiency: "어디서 배운적은 없는데 오픈소스 보던게 대부분 파이썬이라 눈에 익어버리고 어떤게 좋은 코드인지 구분이 가기 시작"
-    level: 4
-  - language: "JavaScript"
-    proficiency: "읽기만 가능하고 작성해 본 적 거의 없음"
-    level: 1
-  - language: "Java"
-    proficiency: "아주 열심히 공부한 정직한 친구, JVM 쪽으로도 관심이 생겨서 책 읽으며 공부 중"
-    level: 7
-  - framework: "Spring Boot"
-    proficiency: "트랜잭션과 싸우면서 정이 들어버렸다"
-    level: 7
-  - tool: "Git"
-    proficiency: "혹시 모를 롤백을 위해 사용"
-    level: 5
-```
-
-```yaml
-요즘 뭐하나?
-- 현재는 Jenkins + LLM 모델을 이용하여 멀티 클라우드 환경에서의 CI/CD 작업을 프롬프트와 자연어만으로 자동으로 config 값들을 수정하는 프로젝트를 비밀리에 진행하고 있습니다.
-
-왜 멀티 클라우드인가?
-- 돈이 없어서 리소스가 부족합니다. 무료 서버 최대한 땡겨가지고 다 사용하려고 멀티 클라우드로 전환했습니다. 덕분에 관리하기가 너무 복잡해져서 이를 통합적으로 쉽게 관리하기 위해 여러 방법으로 작업 중입니다.
-
-그렇다면 모니터링이 복잡할텐데 어떻게 작업하고 있는가?
-- 결과적으로 리소스 자원이 부족하다보니 쿠버네티스 사용을 못합니다. 그러한 관점에서 멀티 클라우드에 있는 각기 서버들의 메트릭 데이터들을 중앙 클라우드(임의의 클라우드)쪽으로 프로메테우스로 통합 전송한 후, 그라파나를 사용하여 관리소스들을 모니터링을 합니다. 월페이퍼 엔진이라는 배경화면을 만들 수 있는 엔진이 있는데, 이걸로 처음에 자바스크립트로 json API를 받아 모니터링 해보려고 했다가 그라파나를 발견해서 써보고 있는데 만족스럽습니다.
-
-각 클라우드의 관리도 복잡한테 그건 어떻게 하고 있는가?
-- 그래서 지금 Jenkins를 활용하여 최대한 굴려보려고 미니 프로젝트를 짜서 해보고 있습니다. 클라우드 독립 환경만 지금 5개로 굴려지고 있습니다. 이러다보니 VPC도 설정을 못하고 각기 서버에서 최대한 보안성을 높이기 위해 해당되는 서버들간의 IP만 통신 교류가 진행되야 합니다. 이를 위해 Config 서버를 따로 두고 각 클라우드 환경에서 유기적으로 방화벽을 조정해줘야 합니다. Config 서버가 변경될 때에는 해당 Config 서버의 주소를 다른 서버들에서 변경을 해줘야 합니다. 이를 위해 현재 작업 하고 있는 것이 Jenkins 작업입니다. 해당 프로젝트의 github 배포 서버에서 변동을 주면 자동으로 CI/CD 작업을 할 수 있도록 docker 이미지화와 변경을 자동화하는 작업을 하고 있습니다.
-
-근데 그러면 LLM 모델은 도데체 뭐하는데 쓰는것인가? 코드 변경사항만 github 쪽에 넘기면 config 관련 내용들이 전부 수정되는 것이 아닌가?
-- 그냥 재밌어보이는 아이디어여서 해볼려고 합니다. 단순 내가 코드를 쳐서 배포하는 것이 아닌, LLM을 최대한 활용하여 해당 ip 주소들에 대한 프롬프트와 내용만을 변경해달라고 요청하면 자동으로 서비스에 적용되는 것을 보고 싶습니다. 현재 고민중에 있는 것은 LLM 모델이 만든 코드에 대한 검증입니다. 코드의 검증이 마쳐진 후에야 github 쪽으로 push 작업을 할 수 있습니다. LLM 모델이 만든 코드에 대한 신용도가 아직까지는 떨어짐에 있어서 그렇습니다. 사실 LLM 에게 코드를 만들어달라고 하고 내가 그것을 보고 확인한 후에 Deploy 하도록 하는 작업은 어렵지 않습니다. 하지만 제가 하고 싶은 것은 그야말로 AI에 대한 완전한 신용을 가지는 Tool입니다. 그렇기에 프롬프트와 자연어를 적용하면, 사용자가 내용을 확인하는 것이 아닌 알아서 작업이 마쳐져야 하는 것입니다.
-
-어떠한 검증 과정을 거치려고 하는가?
-- 현재는 두 가지 방안을 테스트 중에 있습니다. 첫 번째는 A 라고 하는 LLM 모델에서 코드를 만든 후, B 라는 다른 LLM 모델에서 비교를 하는 것입니다.
-기존 코드와 A 코드를 비교 하여 해당 변동 사항이 맞는지 B 모델에게 검증하는 것입니다.
-두 번째 방법은 A 모델과 B 모델간 GAN(적대적 생성 신경망) 방법을 이용하는 것입니다.
-해당 코드를 두 모델간 경쟁 체제에서 더 올바른 코드를 추출하게 하는 방식입니다.
-현재까지는 첫 번째 방법을 통한 방법이 구현도 면에서는 어렵지 않고 적용하기 괜찮아보여 개발을 진행 중에 있습니다.
-두 번째 방법은 모델 간 결과를 서로에게 넘기면서 새롭게 추론하는 방식으로 할 수 있을 것 같은데, 어느 정도로 서로에게 데이터를 핑퐁해야 좋은 결과 값을 넘겨 줄 수 있을지는 테스트를 진행해 봐야 합니다.
-이는 한 코드 문단에 대한 얘기일수도 있고, 해당 프로젝트가 가지는 전체 코드에 대해 해당할 수도 있습니다.
-
-(2025.3.26 추가) 최근에 MCP(Model Context Protocol) 관련하여 공부하면서 위 방법을 MCP로 할 수 있음을 알게되어서 그쪽 방향으로 프로젝트를 진행하고 있습니다.
-생각보다 재미있는 부분이라 클라우드와 관련하여서도 앞으로 MCP의 추세가 궁금해집니다.
-MCP 서버들을 이제 호스트를 기반하여 MCP 클라이언트를 통해 접근하는게 가능해졌습니다. 스프링을 통해서도 이제 다른 MCP 서버들에 유연하게 접근이 가능해졌습니다. 기존 Soool이라는 프로젝트를 진행하며 
-
-(속 마음) 그거 할 시간에 쿠버네티스 공부를 더 해보는건 어떠한가?
-- 그거 공부하다가 12만원의 거금을 들여 산 미니 PC Firebat n100이 터져버려서 마음이 너무 아픕니다. 사실 쿠버네티스를 로컬에서 테스트해보며 써 봤었습니다. 이제 그걸 검증하고 JMeter 같은 걸로 테스트 할 수 있는 분산환경이 없어서.. 저도 공부하고 싶습니다.. 훌쩍
-
-
-
-
----
-ML Engineer, Data Engineer
-: 이커머스를 운영 중인 지인의 더 좋은 서비스를 위해서 해당 데이터들을 기반하여 예측 모델을 만들고 공부 및 테스트를 진행하고 있습니다. 
-
-Embedded Systems Engineer, IOT Engineer
-: 집안에 허브 서버를 두어 HA를 통한 전 가구 IOT 통합 자동화 프로젝트를 진행하고 있습니다. 추후 로컬 서버를 통한 LLM 모델과 TTS 모델이 크게 발전하여 높은 수준의 경험을 주기를 기대하고 있습니다. 
-
-Robotics Engineer
-: 먼 미래에 로봇의 설계, 개발, 프로그래밍, 테스트, 유지보수를 진행하며, 직접 만든 로봇에 저만의 개인 비서 AI인 Habo를 탑재하여 물리적인 체스를 두기를 희망합니다.
-
-```
