@@ -18,6 +18,7 @@
 - [x] **Project Section**: 인프라 자동화 및 백엔드 엔지니어링 역량 강조
 - [ ] **Interests & Goals**: Robotics/IoT 제거, 대용량 처리/아키텍처 등 백엔드 관련 관심사로 변경
 - [x] **Footer**: 통계 정보 배치
+- [x] **Fix**: 불안정한 외부 위젯 제거 및 GitHub Actions 기반 Snake Game 적용 (안정성 확보)
 
 ## 3. 포트폴리오 페이지 확장 (Portfolio Expansion)
 - [ ] (추후 논의) 상세 이력서나 포트폴리오를 위한 별도 문서(`PORTFOLIO.md`) 또는 GitHub Pages 연동 고려

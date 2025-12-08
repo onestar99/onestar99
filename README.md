@@ -51,8 +51,17 @@
 
 <div align="center">
 
-| Solved.ac | GitHub Stats |
-| :---: | :---: |
-| <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=jhb9904" height="150" alt="Solved.ac Profile"/> | <a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=onestar99&show_icons=true" height="150" alt="GitHub stats"/></a> |
+<!-- Snake Animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/onestar99/onestar99/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/onestar99/onestar99/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/onestar99/onestar99/output/github-contribution-grid-snake.svg">
+</picture>
+
+<br><br>
+
+| Solved.ac |
+| :---: |
+| <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=jhb9904" height="150" alt="Solved.ac Profile"/> |
 
 </div>
